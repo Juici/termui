@@ -1,0 +1,21 @@
+[package]
+name = "termui"
+version = "0.1.0"
+authors = ["Juici <juicy66173@gmail.com>"]
+description = "A small terminal ui library"
+
+homepage = "https://github.com/Juici/termui-rs"
+repository = "https://github.com/Juici/termui-rs"
+documentation = "https://docs.rs/termui"
+readme = "README.md"
+license = "MIT"
+
+keywords = ["terminal", "tui"]
+categories = []
+
+include = ["Cargo.toml", "src/**/*.rs", "README.md", "LICENSE"]
+
+[dependencies]
+bitflags = "1.0.4"
+log = "0.4.5"
+pancurses = "0.16.0"
